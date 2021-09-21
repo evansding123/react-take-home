@@ -22,9 +22,13 @@ const Module = (props) => {
       <IconName info = {props.info}/>
       <Container>
         {props.info.medias.map((item, index) => {
-          if(index < 5) {
+          if(index < 4) {
             return(
               <Carasoul media = {item} key = {index}/>
+            )
+          } else {
+            return(
+              <div></div>
             )
           }
 

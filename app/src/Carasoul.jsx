@@ -7,7 +7,7 @@ import download from './pics/download.png';
 
 
 const Image = styled.img`
-  width: 100px;
+  width: 125px;
   border-radius: 5px;
 
 `;
@@ -25,7 +25,10 @@ const PlayButton = styled.img`
   position: absolute;
   z-index: 2;
   opacity: 0.7;
-  margin-top: 15%;
+  margin-top: 20%;
+  margin-left: 10%;
+  color: white;
+  border-color: white;
 `;
 
 const InteractContainer = styled.div`
